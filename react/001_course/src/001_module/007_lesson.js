@@ -1,5 +1,5 @@
 import React from "react";
-import Comma, { Hello, World } from "./lesson007a";
+import Comma, { Hello, World } from "./007a_lesson";
 
 const HelloWorld = () => {
   return (

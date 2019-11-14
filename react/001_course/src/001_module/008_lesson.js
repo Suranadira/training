@@ -1,10 +1,12 @@
 import React from "react";
-import Label from "./lesson012a";
+import Text from "./008a_lesson";
 
 const HelloWorld = () => {
   return (
     <h1>
-      <Label text="Hello!" />
+      <Text.Hello />
+      <Text.Separator />
+      <Text.World />!
     </h1>
   );
 };

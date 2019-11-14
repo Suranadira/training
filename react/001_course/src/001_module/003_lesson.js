@@ -1,5 +1,5 @@
 import React from "react";
-import { Hello } from "./lesson003a";
+import { Hello } from "./003a_lesson";
 
 const HelloWorld = () => <Hello />;
 

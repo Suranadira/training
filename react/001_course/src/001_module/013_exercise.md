@@ -8,4 +8,4 @@
 
 ## App anpassen
 
-Basiert auf den Übungen von Modul 1, bauen Sie eine App mit mindestens drei Komponenten. Eine der Komponenten soll die aktuelle Uhrzeit anzeigen.
+Erstellen Sie eine Komponente, die die aktuelle Uhrzeit anzeigt und fügen Sie diese der App hinzu.

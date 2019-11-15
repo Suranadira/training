@@ -1,4 +1,4 @@
-# Erstelle eine neue React Anwendung
+# Erstellen Sie eine neue React Anwendung
 
 ## Create React App
 

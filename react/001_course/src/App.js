@@ -1,4 +1,4 @@
 import React from "react";
-import Lesson from "./002_module/002_exercise";
+import Lesson from "./001_module/014_lesson.js";
 
 export default () => <Lesson />;

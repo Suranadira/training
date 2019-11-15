@@ -1,4 +1,4 @@
-// Refaktorieren Sie die Klassenkomponente in eine funktionale Komponente.
+// Refaktorieren Sie die Klassenkomponente "Clock" in eine funktionale Komponente.
 
 import React from "react";
 

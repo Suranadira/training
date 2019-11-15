@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./001_exercise";
+import App from "./001_lesson";
 
 describe("first test", () => {
   it("renders without crashing", () => {

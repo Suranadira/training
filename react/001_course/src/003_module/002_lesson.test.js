@@ -1,4 +1,4 @@
-import { message, demo, Person } from "./002_exercise";
+import { message, demo, Person } from "./002_lesson";
 
 describe("second test", () => {
   it("test name", () => {

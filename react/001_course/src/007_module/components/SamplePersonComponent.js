@@ -4,9 +4,9 @@ import { PersonComponent } from "./PersonComponent";
 let SamplePersonComponent = () => {
   let samplePerson = context.samplePerson;
   return (
-    <>
+    <div>
       <PersonComponent person={samplePerson} />
-    </>
+    </div>
   );
 };
 

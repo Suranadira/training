@@ -16,7 +16,7 @@ export class PersonInputFormServerComponent extends React.Component {
     let person = context.peopleModel.personWith(createdId);
 
     try {
-      await fetch("http://10.12.6.1:8080/people", {
+      await fetch("http://localhost:8080/people", {
         method: "post",
         headers: {
           Accept: "*",

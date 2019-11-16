@@ -69,8 +69,8 @@
 </details>
 
 <details>
-    <summary>Module 7 - Custom Hooks</summary>
+    <summary>Module 7 - REST API</summary>
     <ol>
-        <li>Lesson - People Component (exercise)</li>
+        <li>Lesson - BrowserRouter, Switch, Route, REST API (exercise)</li>
     </ol>
 </details>

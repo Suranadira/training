@@ -4,13 +4,13 @@
 - 45 Min. Mittagspause
 - 13:15 – 17:15 (14:45 – 15 Min. Pause)
 
-## Mittlerer Tag
+## Zweiter Tag
 
 - 9:00 – 12:00 (10:30 – 15 Min. Pause)
 - 45 Min. Mittagspause
 - 12:45 – 16:30 (14:00 – 15 Min. Pause)
 
-## Letzter Tag
+## Dritter Tag
 
 - 9:00 – 12:00 (10:30 – 15 Min. Pause)
 - 45 Min. Mittagspause

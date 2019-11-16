@@ -5,8 +5,8 @@ import ChildComponent from "./002b_lesson";
 export default () => (
   <>
     <ParentComponent>
-      <ChildComponent text="Hello from Child Component 1!" />
-      <ChildComponent text="Hello from Child Component 2!" />
+      <ChildComponent text="Child Component 1" />
+      <ChildComponent text="Child Component 2" />
     </ParentComponent>
   </>
 );

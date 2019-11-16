@@ -1,7 +1,15 @@
 import React from "react";
-import { useGreeting } from "./001a_lesson";
+import { createStore } from "redux";
+import { Provider } from "react-redux";
+import App from "./components/App";
+import reducer from "./reducers";
+
+const store = createStore(reducer);
 
 export default () => {
-  let greeting = useGreeting();
-  return <h1>{greeting}</h1>;
+  return (
+    <Provider store={store}>
+      <App />
+    </Provider>
+  );
 };

@@ -1,15 +1,11 @@
 import React from "react";
+import ParentComponent from "./001a_lesson";
+import ChildComponent from "./001b_lesson";
 
-//Functional React Component named Ap
-const Ap = () => {
-  return (
-    <div>
-      <p>
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
-      Learn React at once!
-    </div>
-  );
-};
-
-export { Ap };
+export default () => (
+  <>
+    <ParentComponent>
+      <ChildComponent />
+    </ParentComponent>
+  </>
+);

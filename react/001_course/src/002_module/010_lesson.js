@@ -1,3 +1,4 @@
+// Übung:
 // Refaktorieren Sie die Klassenkomponente "Clock" in eine funktionale Komponente.
 
 import React from "react";

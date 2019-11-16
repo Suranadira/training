@@ -1,15 +1,15 @@
 import React from "react";
-import { createStore } from "redux";
-import { Provider } from "react-redux";
-import App from "./components/App";
-import reducer from "./reducers";
 
-const store = createStore(reducer);
-
-export default () => {
+//Functional React Component named Ap
+const Ap = () => {
   return (
-    <Provider store={store}>
-      <App />
-    </Provider>
+    <div>
+      <p>
+        Edit <code>src/App.js</code> and save to reload.
+      </p>
+      Learn React at once!
+    </div>
   );
 };
+
+export { Ap };

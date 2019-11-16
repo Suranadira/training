@@ -31,6 +31,46 @@
         <li>Lesson - componentDidMount as hook</li>
         <li>Lesson - componentDidMount and componentDidUpdate as single hook</li>
         <li>Lesson - componentWillUnmount as hook</li>
-        <li>Lesson - class to functional component refactoring exercise</li>
+        <li>Lesson - class to functional component refactoring (exercise)</li>
+    </ol>
+</details>
+
+<details>
+    <summary>Module 3 - Nested Components</summary>
+    <ol>
+        <li>Lesson - Children.map</li>
+        <li>Lesson - multiple child components</li>
+        <li>Lesson - cloneElement</li>
+        <li>Lesson - parent component with responsive design (exercise)</li>
+    </ol>
+</details>
+
+<details>
+    <summary>Module 4 - Unit Tests</summary>
+    <ol>
+        <li>Lesson - unit test 1 (exercise)</li>
+        <li>Lesson - unit test 2 (exercise)</li>
+    </ol>
+</details>
+
+<details>
+    <summary>Module 5 - Redux</summary>
+    <ol>
+        <li>Lesson - Todo App (demo)</li>
+    </ol>
+</details>
+
+<details>
+    <summary>Module 6 - Custom Hooks</summary>
+    <ol>
+        <li>Lesson - minimalistic custom hook</li>
+        <li>Lesson - useEffect/useState with custom hook</li>
+    </ol>
+</details>
+
+<details>
+    <summary>Module 7 - Custom Hooks</summary>
+    <ol>
+        <li>Lesson - People Component (exercise)</li>
     </ol>
 </details>

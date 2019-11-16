@@ -1,3 +1,6 @@
+// Aufgabe:
+// Die Fehler entsprechend dem "first test" beheben
+
 import React from "react";
 
 //Functional React Component named Ap

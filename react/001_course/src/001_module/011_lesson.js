@@ -4,7 +4,7 @@ export default () => {
   let names = ["Noah", "Emma", "Elias"];
   return (
     <ul>
-      {names.map(function(name, index) {
+      {names.map((name, index) => {
         return <li key={index}>{name}</li>;
       })}
     </ul>

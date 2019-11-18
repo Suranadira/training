@@ -1,5 +1,5 @@
 import React from "react";
 
-export default ({ onClick }) => {
-  return <button onClick={onClick}>Count</button>;
+export default ({ counter }) => {
+  return <button onClick={counter}>Count</button>;
 };

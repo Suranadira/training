@@ -10,6 +10,7 @@ export default () => {
       // Similar to componentWillUnmount
       window.removeEventListener("click", counter);
     };
+
     // eslint-disable-next-line
   }, []);
 

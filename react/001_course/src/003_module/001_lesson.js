@@ -6,6 +6,8 @@ export default () => (
   <>
     <ParentComponent>
       <ChildComponent />
+      <ChildComponent />
+      <ChildComponent />
     </ParentComponent>
   </>
 );

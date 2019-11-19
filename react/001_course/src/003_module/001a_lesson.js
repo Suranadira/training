@@ -1,3 +1,13 @@
-import React, { Children } from "react";
+import React from "react";
 
-export default props => <>{Children.map(props.children, child => child)}</>;
+export default props => {
+  return (
+    <>
+      {React.Children.map(props.children, child => {
+        console.log(child);
+
+        return child;
+      })}
+    </>
+  );
+};

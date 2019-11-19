@@ -1,5 +1,5 @@
 import React from "react";
 import "./App.css";
-import Lesson from "./002_module/010_lesson.js";
+import Lesson from "./003_module/001_lesson.js";
 
 export default () => <Lesson />;

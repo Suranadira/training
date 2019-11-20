@@ -1,8 +1,5 @@
 package org.javacream.training.application;
 
-import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -12,21 +9,20 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @CrossOrigin
-public class PeopleRestController{
-	
+public class PeopleRestController {
+	private final PeopleRepository repo;
 
-	@Autowired private PeopleRepository repo;
+	public PeopleRestController(PeopleRepository repo) {
+		this.repo = repo;
+	}
 
 	@RequestMapping(method=RequestMethod.GET, path="/people/{id}", produces="application/json")
 	public Person findPersonById(@PathVariable("id") Long personId) {
-		return repo.findOne(personId);
+		return repo.findById(personId).orElseThrow(() -> new IllegalArgumentException("Person with id="+personId+" does not exist."));
 	}
 	@RequestMapping(method=RequestMethod.GET, path="/people", produces="application/json")
-	public Person[] findAllPeople() {
-		List<Person> people = repo.findAll();
-		Person[] result = new Person[people.size()];
-		people.toArray(result);
-		return result;
+	public Iterable<Person> findAllPeople() {
+		return repo.findAll();
 	}
 
 	@RequestMapping(method=RequestMethod.POST, path="/people", consumes="application/json")
@@ -41,7 +37,7 @@ public class PeopleRestController{
 
 	@RequestMapping(method=RequestMethod.DELETE, path="/people/{id}")
 	public void deletePersonById(@PathVariable("id") Long personId) {
-		repo.delete(personId);
+		repo.deleteById(personId);
 	}
 
 }

@@ -80,3 +80,4 @@
 - https://reactjs.de/artikel/react-tutorial-deutsch/
 - https://dev.to/vanderleisilva/global-state-management-with-react-hooks-and-context-5f6h
 - https://alligator.io/react/server-side-rendering/
+- https://www.toptal.com/nodejs/secure-rest-api-in-nodejs

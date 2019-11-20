@@ -74,3 +74,8 @@
         <li>Lesson - BrowserRouter, Switch, Route, REST API (exercise)</li>
     </ol>
 </details>
+
+### Links
+
+- https://reactjs.de/artikel/react-tutorial-deutsch/
+- https://dev.to/vanderleisilva/global-state-management-with-react-hooks-and-context-5f6h

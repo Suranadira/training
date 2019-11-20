@@ -5,7 +5,6 @@ export default props => {
     <>
       {React.Children.map(props.children, child => {
         console.log(child);
-
         return child;
       })}
     </>
